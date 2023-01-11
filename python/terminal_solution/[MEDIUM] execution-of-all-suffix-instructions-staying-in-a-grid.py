@@ -1,3 +1,7 @@
+"""
+Link do desafio: https://leetcode.com/problems/execution-of-all-suffix-instructions-staying-in-a-grid/
+"""
+
 def calculaPassos(n, posInitial, instructions):
   total_linhas = n
   total_colunas = n
@@ -12,24 +16,17 @@ def calculaPassos(n, posInitial, instructions):
     linha_atual = posInitial[0]
     coluna_atual = posInitial[1]
     for movimento in passo:
-      if(movimento == 'R'):
-        coluna_atual += 1
-      
-      elif(movimento == 'L'):
-        coluna_atual -= 1
-      
-      elif(movimento == 'U'):
-        linha_atual -= 1
-      
-      else:
-        linha_atual += 1
+
+      if(movimento == 'R'): coluna_atual += 1
+      elif(movimento == 'L'): coluna_atual -= 1
+      elif(movimento == 'U'): linha_atual -= 1
+      else: linha_atual += 1
 
       passo_valido = compara_posicao(linha_atual, coluna_atual)
 
-      if passo_valido:
-        passos_validos += 1
-      else:
-        break
+      if passo_valido: passos_validos += 1
+      else: break
+
     answer.append(passos_validos)
 
   print(answer)
