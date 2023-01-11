@@ -8,8 +8,9 @@
  ⚠️ Os exercícios estão feitos metade em python e metade em js. 
 
  ## Estrutura dos diretórios
- - Os diretórios `/python` e `/javascript` contém dois diretórios:
+ Os diretórios `/python` e `/javascript` contém dois diretórios:
   - `/leetcode` - que roda a versão do leetcode colando o código inteiro no bloco de código do [site do LeetCode] (https://leetcode.com/)
+  
   - `/terminal` - que roda a versão no terminal com os comandos:
     - **PARA JAVASCRIPT:** `node nome_do_arquivo.js`
     **ou** 
