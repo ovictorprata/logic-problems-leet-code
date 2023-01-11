@@ -9,8 +9,8 @@
 
  ## Estrutura dos diretórios
  - Os diretórios `/python` e `/javascript` contém dois diretórios:
-  - `/leetcode` - que roda a versão do leetcode
-  - `/terminal` - que roda a versão no terminal
+  - `/leetcode` - que roda a versão do leetcode colando o código inteiro no bloco de código do [site do LeetCode] (https://leetcode.com/)
+  - `/terminal` - que roda a versão no terminal com o comando `node nome_do_arquivo.js` **ou** `python3 nome_do_arquivo.py`
  ## SETUP PYTHON
  - Para ver as resoluções em python, recomendo criar um ambiente virtual e rodar:
 
