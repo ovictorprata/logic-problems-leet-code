@@ -1,5 +1,9 @@
 /*
 Link do desafio: https://leetcode.com/problems/validate-stack-sequences/
+
+não passa neste input: 
+[0,2,1]
+[0,1,2]
 */
 
 /**
@@ -17,7 +21,7 @@ Link do desafio: https://leetcode.com/problems/validate-stack-sequences/
       popped.shift()
       }
   }
-  popped.sort()
+  popped.sort((a,b)=>a-b)
 
   for(el in popped){
       if(popped[el] > pushed[el]){

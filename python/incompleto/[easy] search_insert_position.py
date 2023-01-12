@@ -1,5 +1,9 @@
 """
 Link do desafio: https://leetcode.com/problems/search-insert-position/
+
+NÃO PASSA NESTE INPUT:
+[1,3,5,6]
+0
 """
 
 def searchInsert(nums, target):
@@ -8,7 +12,7 @@ def searchInsert(nums, target):
         if i < target:
             pos_greater = nums.index(i)
 
-    pos_greater += 1
+        pos_greater += 1
     return pos_greater
 
 #CASE 1

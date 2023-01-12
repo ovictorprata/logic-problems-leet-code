@@ -10,9 +10,8 @@ def numJewelsInStones(jewels, stones):
     return jewel_in_stones
 
 #CASE 1
-jewels = 'z'
-stones = 'ZZ'
-print('CASE 1: ', numJewelsInStones(jewels, stones))
+
+print('CASE 1: ', numJewelsInStones('z', 'ZZ'))
 
 #CASE 2
 jewels = "aA"
